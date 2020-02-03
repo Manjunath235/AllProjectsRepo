@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11687" started-at="2020-01-27T11:05:09 IST" finished-at="2020-01-27T11:05:20 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11687" started-at="2020-01-27T11:05:09 IST" finished-at="2020-01-27T11:05:20 IST">
+      <class name="windowsAuto.WindowsDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:windowsAuto.WindowsDemo@184f6be2]" name="setUp" is-config="true" duration-ms="1727" started-at="2020-01-27T11:05:09 IST" finished-at="2020-01-27T11:05:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clearResult()[pri:0, instance:windowsAuto.WindowsDemo@184f6be2]" name="clearResult" is-config="true" duration-ms="407" started-at="2020-01-27T11:05:10 IST" finished-at="2020-01-27T11:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="PASS" signature="Addition(java.lang.reflect.Method)[pri:1, instance:windowsAuto.WindowsDemo@184f6be2]" name="Addition" duration-ms="1551" started-at="2020-01-27T11:05:11 IST" finished-at="2020-01-27T11:05:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void windowsAuto.WindowsDemo.Addition(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method status="PASS" signature="tearExit(org.testng.ITestResult)[pri:0, instance:windowsAuto.WindowsDemo@184f6be2]" name="tearExit" is-config="true" duration-ms="86" started-at="2020-01-27T11:05:12 IST" finished-at="2020-01-27T11:05:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addition status=SUCCESS method=WindowsDemo.Addition(java.lang.reflect.Method)[pri:1, instance:windowsAuto.WindowsDemo@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearExit -->
+        <test-method status="PASS" signature="clearResult()[pri:0, instance:windowsAuto.WindowsDemo@184f6be2]" name="clearResult" is-config="true" duration-ms="357" started-at="2020-01-27T11:05:13 IST" finished-at="2020-01-27T11:05:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearResult -->
+        <test-method status="PASS" signature="countList(java.lang.reflect.Method)[pri:2, instance:windowsAuto.WindowsDemo@184f6be2]" name="countList" duration-ms="5397" started-at="2020-01-27T11:05:13 IST" finished-at="2020-01-27T11:05:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void windowsAuto.WindowsDemo.countList(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countList -->
+        <test-method status="PASS" signature="tearExit(org.testng.ITestResult)[pri:0, instance:windowsAuto.WindowsDemo@184f6be2]" name="tearExit" is-config="true" duration-ms="85" started-at="2020-01-27T11:05:18 IST" finished-at="2020-01-27T11:05:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countList status=SUCCESS method=WindowsDemo.countList(java.lang.reflect.Method)[pri:2, instance:windowsAuto.WindowsDemo@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearExit -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:windowsAuto.WindowsDemo@184f6be2]" name="TearDown" is-config="true" duration-ms="2043" started-at="2020-01-27T11:05:18 IST" finished-at="2020-01-27T11:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- windowsAuto.WindowsDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
